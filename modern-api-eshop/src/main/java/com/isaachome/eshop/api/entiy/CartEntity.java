@@ -8,12 +8,7 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "cart")
-public class CartEntity {
-    @Id
-    @GeneratedValue
-    @Column(name = "ID",updatable = false,nullable = false)
-    private UUID id;
-
+public class CartEntity  extends BaseEntity {
     @OneToOne
     @JoinColumn(name = "USER_ID",referencedColumnName = "ID")
     private UserEntity user;
@@ -26,5 +21,6 @@ public class CartEntity {
             inverseJoinColumns = @JoinColumn(name = "ITEM_ID")
     )
     private List<ItemEntity> items = Collections.emptyList();
+
 
 }
