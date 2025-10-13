@@ -1,4 +1,4 @@
-package com.isaachome.eshop;
+package com.isaachome.eshop.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
