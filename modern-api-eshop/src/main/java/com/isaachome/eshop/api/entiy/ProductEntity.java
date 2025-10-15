@@ -2,8 +2,6 @@ package com.isaachome.eshop.api.entiy;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
-
-import javax.swing.text.html.HTML;
 import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;
@@ -35,6 +33,7 @@ public class ProductEntity extends BaseEntity{
     @OneToMany(mappedBy = "product")
     private List<ItemEntity> items;
 
+    public ProductEntity(){}
     public ProductEntity(UUID id,
          @NotNull(message = "Product name is required.")String name,
                          String description, BigDecimal price, int count, String imageUrl, List<TagEntity> tags, List<ItemEntity> items) {
@@ -52,55 +51,62 @@ public class ProductEntity extends BaseEntity{
         return name;
     }
 
-    public void setName(String name) {
+    public ProductEntity setName(String name) {
         this.name = name;
+        return this;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    public ProductEntity setDescription(String description) {
         this.description = description;
+        return this;
     }
 
     public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(BigDecimal price) {
+    public ProductEntity setPrice(BigDecimal price) {
         this.price = price;
+        return this;
     }
 
     public int getCount() {
         return count;
     }
 
-    public void setCount(int count) {
+    public ProductEntity setCount(int count) {
         this.count = count;
+        return this;
     }
 
     public String getImageUrl() {
         return imageUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
+    public ProductEntity setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
+        return this;
     }
 
     public List<TagEntity> getTags() {
         return tags;
     }
 
-    public void setTags(List<TagEntity> tags) {
+    public ProductEntity setTags(List<TagEntity> tags) {
         this.tags = tags;
+        return this;
     }
 
     public List<ItemEntity> getItems() {
         return items;
     }
 
-    public void setItems(List<ItemEntity> items) {
+    public ProductEntity setItems(List<ItemEntity> items) {
         this.items = items;
+        return this;
     }
 }

@@ -1,6 +1,5 @@
 package com.isaachome.eshop.api.exceptions;
 
-import java.lang.Error;
 
 public class ErrorUtils {
     private ErrorUtils() {}
@@ -13,9 +12,9 @@ public class ErrorUtils {
      * @param
      * @return error
      */
-    public static java.lang.Error createError(final String errMsgKey, final String errorCode,
+    public static Error createError(final String errMsgKey, final String errorCode,
                                               final Integer httpStatusCode) {
-        java.lang.Error error = new Error();
+        Error error = new Error();
         error.setMessage(errMsgKey);
         error.setErrorCode(errorCode);
         error.setStatus(httpStatusCode);

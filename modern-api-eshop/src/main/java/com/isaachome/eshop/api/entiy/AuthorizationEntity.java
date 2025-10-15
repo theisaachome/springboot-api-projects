@@ -16,7 +16,7 @@ public class AuthorizationEntity extends BaseEntity {
     @Column(name = "ERROR")
     private String error;
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "ORDER_ID",referencedColumnName = "ID")
+    @JoinColumn(name = "ORDER_ID",referencedColumnName = "id")
     private OrderEntity orderEntity;
 
     public boolean isAuthorization() {
