@@ -1,0 +1,312 @@
+[
+  {
+    "id": "d1a3b2f1-8b0b-4c2f-8e12-1a4d9f7f1b11",
+    "date": "2025-09-01T09:00:00",
+    "amount": 2000.00,
+    "category": "House Rent",
+    "account": "RHB Bank",
+    "note": "Monthly apartment rent",
+    "type": "EXPENSE",
+    "description": "September rent payment"
+  },
+  {
+    "id": "a8bcd456-90fe-4123-bbc2-9fd56a19c001",
+    "date": "2025-09-02T19:30:00",
+    "amount": 210.50,
+    "category": "Grocery",
+    "account": "Maybank Debit",
+    "note": "Tesco grocery shopping",
+    "type": "EXPENSE",
+    "description": "Groceries and household items"
+  },
+  {
+    "id": "bd7f891e-33b3-4a2c-b741-cc12a8f8e125",
+    "date": "2025-09-03T10:15:00",
+    "amount": 320.00,
+    "category": "Electric Bill",
+    "account": "RHB Bank",
+    "note": "Electricity for September",
+    "type": "EXPENSE",
+    "description": "TNB electric bill"
+  },
+  {
+    "id": "0af87c5a-21cc-4b22-bdf8-b9b4d1a832c9",
+    "date": "2025-09-04T08:20:00",
+    "amount": 150.00,
+    "category": "Internet Bill",
+    "account": "RHB Bank",
+    "note": "Unifi internet monthly payment",
+    "type": "EXPENSE",
+    "description": "Home broadband bill"
+  },
+  {
+    "id": "2a09c38f-8e29-42c7-a839-9c1b83705a12",
+    "date": "2025-09-04T12:30:00",
+    "amount": 50.00,
+    "category": "Transport",
+    "account": "GrabPay",
+    "note": "Grab rides",
+    "type": "EXPENSE",
+    "description": "Office commute rides"
+  },
+  {
+    "id": "3ef928a4-f871-4984-93c0-1dc72f7dc114",
+    "date": "2025-09-05T20:00:00",
+    "amount": 75.00,
+    "category": "Dining Out",
+    "account": "Maybank Debit",
+    "note": "Dinner with friends",
+    "type": "EXPENSE",
+    "description": "Weekend dinner"
+  },
+  {
+    "id": "6b12a7a4-ef89-4a2c-b0f1-4fd22b5b6cc1",
+    "date": "2025-09-06T11:00:00",
+    "amount": 40.00,
+    "category": "Coffee",
+    "account": "Maybank Debit",
+    "note": "Café breakfast",
+    "type": "EXPENSE",
+    "description": "Brunch coffee and pastry"
+  },
+  {
+    "id": "aa1933ef-71cc-4fa9-8b52-8c12ff88a901",
+    "date": "2025-09-07T15:45:00",
+    "amount": 250.00,
+    "category": "Clothing",
+    "account": "RHB Credit Card",
+    "note": "New jeans and shirts",
+    "type": "EXPENSE",
+    "description": "Wardrobe refresh"
+  },
+  {
+    "id": "bb21f88d-4c9a-4901-9e12-2331dd7c90bb",
+    "date": "2025-09-08T13:00:00",
+    "amount": 300.00,
+    "category": "Groceries",
+    "account": "Maybank Debit",
+    "note": "Weekly groceries",
+    "type": "EXPENSE",
+    "description": "Fresh fruits and vegetables"
+  },
+  {
+    "id": "cf37c8fa-4921-42b3-bf9f-1a9b8a3c6110",
+    "date": "2025-09-09T09:00:00",
+    "amount": 80.00,
+    "category": "Mobile Bill",
+    "account": "RHB Bank",
+    "note": "Maxis mobile payment",
+    "type": "EXPENSE",
+    "description": "Monthly mobile bill"
+  },
+  {
+    "id": "d121b3ee-821b-4a7f-92b3-4c19c7e23301",
+    "date": "2025-09-10T18:20:00",
+    "amount": 100.00,
+    "category": "Entertainment",
+    "account": "RHB Credit Card",
+    "note": "Netflix and Spotify",
+    "type": "EXPENSE",
+    "description": "Streaming subscriptions"
+  },
+  {
+    "id": "e4c92c1b-45b7-4c1a-ae11-7d124c5d3211",
+    "date": "2025-09-11T19:45:00",
+    "amount": 130.00,
+    "category": "Dining Out",
+    "account": "Maybank Debit",
+    "note": "Family dinner",
+    "type": "EXPENSE",
+    "description": "Weekend family dinner"
+  },
+  {
+    "id": "f87cc221-18a9-4a14-83cc-451f4112c8f4",
+    "date": "2025-09-12T08:45:00",
+    "amount": 25.00,
+    "category": "Transport",
+    "account": "GrabPay",
+    "note": "Grab to office",
+    "type": "EXPENSE",
+    "description": "Work commute"
+  },
+  {
+    "id": "1ab3e5a9-8f12-49f2-93f4-d219b8ff1200",
+    "date": "2025-09-13T17:10:00",
+    "amount": 450.00,
+    "category": "Health & Wellness",
+    "account": "RHB Bank",
+    "note": "Clinic visit and meds",
+    "type": "EXPENSE",
+    "description": "Doctor consultation"
+  },
+  {
+    "id": "2e4ab2b4-94df-4633-b41b-96d7d93a7b01",
+    "date": "2025-09-14T12:00:00",
+    "amount": 60.00,
+    "category": "Entertainment",
+    "account": "RHB Credit Card",
+    "note": "Movie ticket",
+    "type": "EXPENSE",
+    "description": "Weekend movie"
+  },
+  {
+    "id": "33a1c9b3-911f-48ff-9a72-751221c9d9f1",
+    "date": "2025-09-15T09:00:00",
+    "amount": 11000.00,
+    "category": "Salary",
+    "account": "RHB Bank",
+    "note": "Monthly salary credited",
+    "type": "INCOME",
+    "description": "Salary for September"
+  },
+  {
+    "id": "4c8219f9-2f2b-4fd0-9b11-5a3c991f7701",
+    "date": "2025-09-15T18:00:00",
+    "amount": 400.00,
+    "category": "Dining Out",
+    "account": "RHB Credit Card",
+    "note": "Birthday dinner celebration",
+    "type": "EXPENSE",
+    "description": "Celebration dinner"
+  },
+  {
+    "id": "5d9372fa-1b2c-44b9-9a7f-8aa95b4a3f3f",
+    "date": "2025-09-16T09:30:00",
+    "amount": 500.00,
+    "category": "Investment Transfer",
+    "account": "RHB Bank",
+    "note": "Transfer to S&P 500 Fund",
+    "type": "TRANSFER",
+    "description": "Investment deposit"
+  },
+  {
+    "id": "6e839d1b-1aef-4c17-937a-8a6b7d9b0b2c",
+    "date": "2025-09-17T08:30:00",
+    "amount": 300.00,
+    "category": "Grocery",
+    "account": "Maybank Debit",
+    "note": "Weekly groceries",
+    "type": "EXPENSE",
+    "description": "Fresh produce and snacks"
+  },
+  {
+    "id": "7fa9e8aa-8f18-4630-bc8c-2af9a3c701aa",
+    "date": "2025-09-18T09:00:00",
+    "amount": 1000.00,
+    "category": "Investment Transfer",
+    "account": "RHB Bank",
+    "note": "Transfer to S&P 500 Fund",
+    "type": "TRANSFER",
+    "description": "Monthly investment contribution"
+  },
+  {
+    "id": "8b3e8a29-91b1-4a0f-a8c2-4f0b9f1a991c",
+    "date": "2025-09-19T17:45:00",
+    "amount": 250.00,
+    "category": "Shopping",
+    "account": "RHB Credit Card",
+    "note": "Online gadget accessories",
+    "type": "EXPENSE",
+    "description": "Phone case and charger"
+  },
+  {
+    "id": "9a1b2c33-7e21-4aa4-9a82-3b21a2b7e401",
+    "date": "2025-09-20T10:30:00",
+    "amount": 120.00,
+    "category": "Coffee",
+    "account": "Maybank Debit",
+    "note": "Café visits",
+    "type": "EXPENSE",
+    "description": "Weekend coffee catchup"
+  },
+  {
+    "id": "10bc8e1f-2a44-4959-80a3-1a72f4b1b211",
+    "date": "2025-09-21T09:00:00",
+    "amount": 600.00,
+    "category": "Freelance",
+    "account": "RHB Bank",
+    "note": "Freelance project payment",
+    "type": "INCOME",
+    "description": "Side project payment"
+  },
+  {
+    "id": "11aa8c3b-2d5f-4c1f-bcf8-9112ffb82111",
+    "date": "2025-09-22T14:30:00",
+    "amount": 80.00,
+    "category": "Transport",
+    "account": "GrabPay",
+    "note": "Grab rides",
+    "type": "EXPENSE",
+    "description": "Daily commute"
+  },
+  {
+    "id": "12bb1d4a-91ef-49c4-8a45-91e2fc12a112",
+    "date": "2025-09-23T16:45:00",
+    "amount": 500.00,
+    "category": "Investment Transfer",
+    "account": "RHB Bank",
+    "note": "Transfer to S&P 500 Fund",
+    "type": "TRANSFER",
+    "description": "Investment contribution"
+  },
+  {
+    "id": "13cc2e5a-8bff-48a3-bb21-9a4f2b4a1133",
+    "date": "2025-09-24T19:00:00",
+    "amount": 280.00,
+    "category": "Groceries",
+    "account": "Maybank Debit",
+    "note": "Supermarket run",
+    "type": "EXPENSE",
+    "description": "Household items"
+  },
+  {
+    "id": "14dd3f6b-71aa-42ff-b3f2-7b1a9a6a1144",
+    "date": "2025-09-25T20:00:00",
+    "amount": 700.00,
+    "category": "Shopping",
+    "account": "RHB Credit Card",
+    "note": "New headphones",
+    "type": "EXPENSE",
+    "description": "Tech purchase"
+  },
+  {
+    "id": "15ee4g7c-91bb-4c2b-9b21-8c4d1a7a1155",
+    "date": "2025-09-26T09:30:00",
+    "amount": 400.00,
+    "category": "Investment Transfer",
+    "account": "RHB Bank",
+    "note": "Transfer to S&P 500 Fund",
+    "type": "TRANSFER",
+    "description": "Weekly investment"
+  },
+  {
+    "id": "16ff5h8d-72cc-42f1-9b3b-7b2a8a8a1166",
+    "date": "2025-09-27T14:00:00",
+    "amount": 90.00,
+    "category": "Entertainment",
+    "account": "RHB Credit Card",
+    "note": "Streaming subscription",
+    "type": "EXPENSE",
+    "description": "Apple TV and Spotify"
+  },
+  {
+    "id": "17gg6i9e-83dd-4e2f-9b4b-8c3a9b9b1177",
+    "date": "2025-09-28T19:30:00",
+    "amount": 110.00,
+    "category": "Dining Out",
+    "account": "Maybank Debit",
+    "note": "Dinner at restaurant",
+    "type": "EXPENSE",
+    "description": "Weekend dinner"
+  },
+  {
+    "id": "18hh7j0f-94ee-4f3f-9b5b-9d4a0c0c1188",
+    "date": "2025-09-30T09:00:00",
+    "amount": 100.00,
+    "category": "Charity",
+    "account": "RHB Bank",
+    "note": "Donation to NGO",
+    "type": "EXPENSE",
+    "description": "Monthly charity"
+  }
+]
