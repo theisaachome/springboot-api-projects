@@ -1,5 +1,12 @@
 -- ✅ PostgreSQL UUID-safe data.sql
-INSERT INTO transactions (id, date, amount, category, account, note, type, description) VALUES
+INSERT INTO accounts (name, balance, description)
+VALUES
+    ('RHB Bank', 00.00, 'Main salary account'),
+    ('Cash Wallet', 00.00, 'Physical cash on hand'),
+    ('Investment - S&P 500', 00.00, 'Investment portfolio'),
+    ('Savings Account', 00.00, 'Emergency savings');
+INSERT INTO transactions (id, date, amount, category, account, note, type, description)
+VALUES
                                                                                            ('b1a3b2f1-8b0b-4c2f-8e12-1a4d9f7f1b11', '2025-09-01T09:00:00', 2000.00, 'House Rent', 'RHB Bank', 'Monthly apartment rent', 'EXPENSE', 'September rent payment'),
                                                                                            ('a8bcd456-90fe-4123-bbc2-9fd56a19c001', '2025-09-02T19:30:00', 210.50, 'Grocery', 'Maybank Debit', 'Tesco grocery shopping', 'EXPENSE', 'Groceries and household items'),
                                                                                            ('bd7f891e-33b3-4a2c-b741-cc12a8f8e125', '2025-09-03T10:15:00', 320.00, 'Electric Bill', 'RHB Bank', 'Electricity for September', 'EXPENSE', 'TNB electric bill'),
